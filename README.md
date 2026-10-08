@@ -25,7 +25,7 @@ Windows PowerShell example (replace the password with your own):
 ```powershell
 $env:ISSUE_DB_URL="jdbc:mysql://localhost:3306/issue_tracker"
 $env:ISSUE_DB_USER="root"
-$env:ISSUE_DB_PASSWORD="mounika@07"
+$env:ISSUE_DB_PASSWORD="${DB_PASSWORD}"
 ```
 Keep your actual password private and never push it to GitHub.
 
